@@ -36,6 +36,8 @@ jar {
 	archiveFileName = 'api-bootcamp-santander-0.0.1-SNAPSHOT.jar'
 }
 
-bootJar {
-	mainClassName = 'src/main/java/me/dio/api_bootcamp_santander/Application.java' // Altere para o nome da sua classe principal
+tasks.jar {
+	manifest {
+		attributes["Main-Class"] = "me/dio/api_bootcamp_santander/Application.java"
+	}
 }
