@@ -1,0 +1,17 @@
+[phases.setup]
+commands = [
+    "gradle wrapper"
+]
+
+[phases.build]
+commands = [
+    "./gradlew build"
+]
+
+[phases.start]
+commands = [
+    "java -jar build/libs/your-application.jar"
+]
+
+[build]
+builder = "gradle"

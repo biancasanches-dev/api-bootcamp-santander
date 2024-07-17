@@ -30,3 +30,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.jar {
+	manifest {
+		attributes["Main-Class"] = "me/dio/api_bootcamp_santander/Application.java"
+	}
+}
