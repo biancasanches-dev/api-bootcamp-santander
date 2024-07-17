@@ -30,11 +30,11 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-//
-//jar {
-//	enabled = true
-//	archiveFileName = 'build/libs/api-bootcamp-santander-0.0.1-SNAPSHOT.jar'
-//}
+
+jar {
+	enabled = true
+	archiveFileName = 'build/libs/api-bootcamp-santander-0.0.1-SNAPSHOT.jar'
+}
 
 tasks.jar {
 	manifest {
