@@ -1,0 +1,5 @@
+# railway.toml
+project = "api-bootcamp-dio"
+
+[services.web]
+build = { nixpacks = "nixpacks.toml" }
