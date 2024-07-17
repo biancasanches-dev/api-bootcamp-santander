@@ -1,3 +1,9 @@
+project = "api-bootcamp-santander"
+
+[services.web]
+port = 8080
+command = "java -jar build/libs/api-bootcamp-santander-0.0.1-SNAPSHOT.jar"
+
 [build]
 builder = "NIXPACKS"
 

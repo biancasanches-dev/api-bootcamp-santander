@@ -33,7 +33,7 @@ tasks.named('test') {
 
 jar {
 	enabled = true
-	archiveFileName = 'api-bootcamp-santander-0.0.1-SNAPSHOT.jar'
+	archiveFileName = 'build/libs/api-bootcamp-santander-0.0.1-SNAPSHOT.jar'
 }
 
 tasks.jar {
