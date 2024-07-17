@@ -1,5 +1,10 @@
-# railway.toml
-project = "api-bootcamp-dio"
+[build]
+builder = "NIXPACKS"
+nixpacksConfigPath = "nixpacks.toml"
 
-[services.web]
-build = { nixpacks = "nixpacks.toml" }
+[deploy]
+runtime = "V2"
+numReplicas = 1
+sleepApplication = false
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
