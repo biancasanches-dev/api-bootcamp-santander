@@ -5,7 +5,8 @@ commands = [
 
 [phases.build]
 commands = [
-    "./gradlew build"
+    "./gradlew build",
+    "ls -l build/libs"
 ]
 
 [phases.start]
